@@ -1,0 +1,157 @@
+#title{
+    
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: azure;
+}
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+.container-fluid{
+    padding:2% 5%;
+}
+.navbar{
+ padding: 0.5rem 0 2rem;    
+}
+h1{ 
+    padding-top: 8.5%;
+    padding-bottom:5% ;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#title img{
+    width:65%;
+    height: 85%;
+    padding-left: 24%;
+    transform:rotate(22deg) ;
+    
+    
+}
+#title i{
+    padding:4px;
+}
+.btn{
+    padding:15px;
+}
+#features{
+background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:azure;
+padding-bottom: 10px;
+
+}
+#features .row{
+    padding:2.5% 5% ;
+}
+#features i{
+    padding:0.5em 0 1em 2em;
+    
+}
+h3{
+    font-weight: bold;
+}
+.col-lg-4 .col-sm-12{
+text-align: center;
+}
+h2{
+    color: azure;
+    font-size:2.5rem ;
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+#testimonials{
+   
+    background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+    text-align:center;
+    padding-bottom: 4%;
+}
+#testimonials h2{
+    padding-top:3%;
+    padding-bottom: 2%;
+}
+.testimonial-image{
+margin-left:40px;
+margin-top:30px;
+width:10%;
+border-radius:100%;
+}
+.carousel-item{
+    padding:3% 5% ;
+}
+#press{
+   align-content:center;
+}
+.press-img{
+    width:15%;
+    margin:25px;
+}
+#pricing h2{
+    color:black;
+    padding-top:7%;
+    text-align: center;
+}
+#pricing p{
+    text-align: center;
+    padding :1% 0 0 2%;
+}
+#pricing h3{
+    text-align: center;
+}
+#pricing button{
+    margin-top:2%;
+    margin-left: 20%;
+    width:60%;
+}
+#pricing{
+    padding-bottom: 60px;
+}
+#cta{
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color:azure;
+padding:2%;
+}
+#cta h3{
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.social-icon {
+    margin: 20px 5px;
+  }
+#footer .container-fluid{
+    margin-top: 2%;
+    padding-top:2%;
+    padding-left: 1%;
+    color: black;
+    
+}
+#cta .btn{
+    margin-left:5px;
+}
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+
